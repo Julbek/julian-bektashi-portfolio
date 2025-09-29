@@ -21,7 +21,7 @@ export default function UpperBar({ToggleMode}) {
             <div className="upper--bar--left--side">
 
                 <a className="logo--wrap">
-                    <img id="joscoyne--logo" src="assets/New_Logo_Draft_01.png" alt="joscoyne"></img>
+                    <img id="betsu--logo" src="assets/Betsu_Type_Logo_Web@2x.png" alt="joscoyne"></img>
                 </a>
             
 

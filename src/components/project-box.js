@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 
 
-export default function ProjectBox({name, cover, key, visible, ViewProject, darkModeOn}) {
+export default function ProjectBox({name, cover, key, visible, ViewProject, darkModeOn, href}) {
     let [visibleState, setVisibleSate] = React.useState(true)
 
     React.useEffect(() =>
@@ -33,38 +33,26 @@ export default function ProjectBox({name, cover, key, visible, ViewProject, dark
    
     
     return (
-
-        
-   
-        <CSSTransition key = "project-box" in={!visibleState} timeout={0} classNames="trans">
-
-            <Link className={!visibleState?"box-link":"box-link-hidden"} to={`/projects/${projectURL}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div  className={!visibleState?"project-box":"project-box-hidden"} id={boxMode} >
-                    
+        <CSSTransition key="project-box" in={!visibleState} timeout={0} classNames="trans">
+            <Link
+                className={!visibleState ? "box-link" : "box-link-hidden"}
+                to={href ? href : `/projects/${projectURL}`}
+                style={{ textDecoration: 'none', color: 'inherit' }}
+                target={href ? "_blank" : undefined} 
+                rel={href ? "noopener noreferrer" : undefined}
+            >
+                <div className={!visibleState ? "project-box" : "project-box-hidden"} id={boxMode}>
                     <div className="project--cover--wrap">
-                        <img className="project--cover" src={cover===""?"./assets/Projects/Coming_Soon.png":cover}></img>
+                        <img className="project--cover" src={cover === "" ? "./assets/Projects/Coming_Soon.png" : cover}></img>
                     </div>
-
                     <div className="project--name--wrap" id={boxMode}>
                         <p className="project--name">
                             {name}
                         </p>
                     </div>
-
                 </div>
             </Link>
-
-
-
-
         </CSSTransition>
-
-
-            
-       
-         
-       
-
     )
 }
 

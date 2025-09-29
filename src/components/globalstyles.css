@@ -1,45 +1,54 @@
 
 
-
 /*NavBar Styles*/
 
 
-
-
-.nav--bar--wrap{
-    display: flex;
-    justify-content:  center;
-    width: 100%;
+.home {
+    width: 50vw; /* or whatever adaptive width you want */
+    margin: 0 auto;
+        background-image: url("C:\Users\Julian\Desktop\BETSU_2025\betsu-app\public\assets\grid_module.svg");
+    background-repeat: repeat;
+    background-size: 2%;
 }
+.nav--bar--wrap{
+
+    width: 100%;
+
+
+
+}
+
 
 
 .nav--bar {
     position: fixed;
-    height: 130px;
-    width: 100%;
-
+    left: 0;
+    right: 0;
+    width: 50vw; /* match .home */
+    margin: 0 auto;
+    height: 175px;
     top: 0px;
     display: flex;
     justify-content: center;
     justify-items: center;
     align-content: center;
-    padding: 20px 10% 0px 10%;
-    background-color: rgb(255, 255, 255, 0);
+    padding: 20px 0% 0px 0%;
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 99;
     border-bottom: solid 1px rgb(225, 225, 225, 0);
     opacity: 1;
     transition: 0.3s;
+
     
 
 }
 
 .nav--bar:hover {
-    background-color: rgb(255, 255, 255, 0.9);   
+    background-color: rgba(224, 224, 224, 0.9);   
 }
 
 .nav--bar--hidden {
-    width: 100%;
-    padding: 20px 10% 0px 10%;
+    width: 50vw;
     position: fixed;
     height: 130px;
     top: 0px;
@@ -47,10 +56,10 @@
     justify-content: center;
     justify-items: center;
     align-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 224, 224);
     opacity: 1;
     transition: 0.3s;
-    top: -130px;
+    top: -175px;
 }
 
 
@@ -62,8 +71,6 @@
 .nav--bar--elements--wrap {
 width: 100%;
 }
-
-
 .ghost--bar {
     position: fixed;
     height: 18px;
@@ -99,13 +106,13 @@ width: 100%;
     align-items: center;
 }
 
-#joscoyne--logo {
+#betsu--logo {
     height: 28px;
     padding-left: var(--sidePadding);
     transition: 0.1s;
 }
 
-#joscoyne--logo:hover {
+#betsu--logo:hover {
     cursor: pointer;
     transform: scale(1.025);
 }
@@ -132,14 +139,14 @@ width: 100%;
 
 .info--button--wrap{
 
-    height: 60px;
+    height: 100px;
     display: grid;
     justify-items: center;
     align-items: center;
 }
 
 #info--button {
-    height: 30px;
+    height: 50px;
     padding-right: var(--sidePadding)
 
 }
@@ -194,12 +201,14 @@ width: 100%;
 
 
 .lower--bar {
-    border-top: solid 2px rgb(0, 0, 0);
     padding-top: 4px;
     height: 50px;
-    display: flex;
+    display:inline;;
     justify-content: space-between;
-    
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: center;
+
     
 
 }
@@ -222,7 +231,9 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-right: var(--sidePadding)
+    padding-right: var(--sidePadding);
+     display: flex; 
+    flex-wrap: wrap; 
 
 }
 
@@ -246,7 +257,9 @@ width: 100%;
     width: 100%;
     z-index: 90;
     transition: all 0.3s;
-    margin-top: 140px;
+    margin-top: 175px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -254,7 +267,7 @@ width: 100%;
 .box--wrap {
     width: 100%;
     display: grid;
-    gap:20px;
+    gap:6px;
     grid-template-columns: repeat(4, 1fr);
     place-items: start;
 
@@ -263,7 +276,11 @@ width: 100%;
 
 
 
+    
 
+   
+  
+  
 
 
 
@@ -275,24 +292,30 @@ width: 100%;
         
     
         padding: 20px 2% 0px 2%;
+        width: 95vw;
+        height: 160px;
     
         
     
     }
     
-    .nav--bar:hover {
-        background-color: rgb(255, 255, 255, 0.9);   
-    }
+    
     
     .nav--bar--hidden {
         padding: 20px 2% 0px 2%;
+        width: 95vw;
+        top:- 160px;
       
+    }
+    .home {
+        width: 95vw; 
+        margin: 0 auto;
     }
 
     .main {
         z-index: 90;
         transition: all 0.3s;
-        margin-top: 140px;
+        margin-top: 180px;
         width: 100%;
         
     }
@@ -312,9 +335,12 @@ width: 100%;
 
 @media screen and (max-width: 480px) {
 
+    
+
     .main {
 
-        margin-top: 130px;
+        margin-top: 165px;
+        width: 90vw;
     }
 
 
@@ -323,8 +349,8 @@ width: 100%;
 
 
 .lower--bar {
-    border-top: solid 2px rgb(0, 0, 0);
     padding-top: 4px;
+    margin-top: 20px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -346,7 +372,6 @@ width: 100%;
     align-items: center;
     justify-content: right;
     padding-right: var(--sidePadding);
-
 
 }
 

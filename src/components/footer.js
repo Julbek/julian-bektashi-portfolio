@@ -68,16 +68,15 @@ export default function Footer({darkModeOn}) {
     React.useEffect(()=>{
         darkModeOn?setFooterMode("footer--dark"):setFooterMode("");
     })
-    
     return (
         <div className="footer--wrap" id={footerMode}>
             <div className="footer">
 
-                <Email email= "hello@joscoyne.co.uk"/>
+                <Email email= "contact@betsu.co.uk"/>
 
                 <div className="social--media--wrap">
                     <SocialMediaLink imgsrc= "/assets/Linktree_Icon_BB.png" link="https://linktr.ee/julianbektashi" target = "_blank" />
-                    <SocialMediaLink imgsrc= "/assets/Github_Icon_BB.png" link="https://discord.com/users/886192436269953025" target = "_blank" />
+                    <SocialMediaLink imgsrc= "/assets/Github_Icon_BB.png" link="https://github.com/Julbek" target = "_blank" />
                     <SocialMediaLink imgsrc= "/assets/Whatsapp_Icon_BB.png" link="https://wa.me/447395390152" target = "_blank" />
                     <SocialMediaLink imgsrc= "/assets/LinkedIn_Icon_BB.png" link="https://www.linkedin.com/in/julianbektashi/" target = "_blank" />
                 </div>
@@ -86,7 +85,7 @@ export default function Footer({darkModeOn}) {
 
                     <p className="copyright--text">
 
-                        ©2023 Joscoyne. All Rights Reserved.
+                        ©2023 Betsu & Co. All Rights Reserved.
 
                     </p>
 

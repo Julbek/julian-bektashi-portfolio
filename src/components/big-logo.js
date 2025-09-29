@@ -28,20 +28,20 @@ export default function BigLogo({darkModeOn}) {
         <div className="big--logo--wrap" id={bigLogoMode}>
 
             <div className="big--logo--img--wrap">
-                <img className="big--logo--img" onMouseOver={Expand} onMouseOut={contract} id={"Z3"+ animationSuffix} src="./assets/Big_Logo_Z3.png" ></img>
-            </div>
-
-            <div className="big--logo--img--wrap">
-                <img className="big--logo--img" onMouseOver={Expand} onMouseOut={contract} id={"Z2"+ animationSuffix} src="./assets/Big_Logo_Z2.png"></img>
-            </div>
-            
-            <div className="big--logo--img--wrap">
-                <img className="big--logo--img" onMouseOver={Expand} onMouseOut={contract} id={"Z1"+ animationSuffix} src="./assets/Big_Logo_Z1.png"></img>
+                <img className="big--logo--img" src="./assets/Betsu_Poster_15.png" ></img>
             </div>
             
         </div>
     )
 }
+
+/*    <div className="big--logo--img--wrap">
+<img className="big--logo--img" onMouseOver={Expand} onMouseOut={contract} id={"Z2"+ animationSuffix} src="./assets/Big_Logo_Z2.png"></img>
+</div>
+
+<div className="big--logo--img--wrap">
+    <img className="big--logo--img" onMouseOver={Expand} onMouseOut={contract} id={"Z1"+ animationSuffix} src="./assets/Big_Logo_Z1.png"></img>
+</div>*/
 
 
 

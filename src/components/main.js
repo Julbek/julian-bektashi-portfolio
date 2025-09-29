@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectBox from "./project-box";
+import ProjectBox from "./project-box.js";
 import { projects } from "./data";
 import "./globalstyles.css";
 import About from "./about";
@@ -45,6 +45,7 @@ export default function Main ({categoriesFilter, allButton, count, ViewProject, 
                     count={count}
                     ViewProject = {ViewProject}
                     darkModeOn = {darkModeOn}
+                    href={project.link}
                     />
                      
 
@@ -63,6 +64,7 @@ export default function Main ({categoriesFilter, allButton, count, ViewProject, 
             count={count}
             ViewProject = {ViewProject}
             darkModeOn = {darkModeOn}
+            href={project.link}
 
             />
 

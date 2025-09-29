@@ -1,46 +1,42 @@
-import "./about.css";
-import BigLogo from "./big-logo";
-import { Link } from "react-router-dom";
+import './about.css';
+import BigLogo from './big-logo';
+import {Link} from 'react-router-dom';
 
-
-export default function About({ darkModeOn, ViewProject }) {
-  
-  
-  
-    function Tooltip({ content }) {
-    if (content === "AboutJulianBektashi") {
+export default function About({darkModeOn, ViewProject}) {
+  function Tooltip({content}) {
+    if (content === 'AboutJulianBektashi') {
       return (
         <div className="tooltip-julian-wrap">
           <img
             id="jb-img-small"
             src="./Projects/Julian_Bektashi/Julian_Bektashi_Photo_01.jpg"
-          ></img>
+          />
           <div className="tooltip-text">
             <p id="tooltip-p">
               Julian has a strong background in all things design, all things
               Imagery, and all things sound. That said, if you called him a
               “visual person” or, heaven forbid, "left-brained", he would
               promptly let you know that he’s also a “scientific
-              method-evidence-based guy”...  <Link to="/julian-bektashi"><a id="link">
-                read more
-              </a></Link>
+              method-evidence-based guy”... <Link to="/julian-bektashi">
+                <a id="link">
+                  read more
+                </a>
+              </Link>
             </p>
-           
+
           </div>
         </div>
       );
-    }
-
-    else if ((content === "Joscoyne")) {
+    } else if (content === 'Joscoyne') {
       return (
         <div>
-          <p id="tooltip-p"> After a long time of coming up with corny names, I was struck by the brillant idea of using the name of my flat!
+          <p id="tooltip-p">
+            {' '}
+            After a long time of coming up with corny names, I was struck by the brillant idea of using the name of my flat!
           </p>
         </div>
       );
-    }
-    
-    else if ((content === "CityOfLondon")) {
+    } else if (content === 'CityOfLondon') {
       return (
         <div>
           <p id="tooltip-p">
@@ -49,7 +45,7 @@ export default function About({ darkModeOn, ViewProject }) {
           </p>
         </div>
       );
-    } else if ((content === "Curiosity")) {
+    } else if (content === 'Curiosity') {
       return (
         <div>
           <p id="tooltip-p">
@@ -57,198 +53,219 @@ export default function About({ darkModeOn, ViewProject }) {
           </p>
         </div>
       );
-    }
-    
-    else if (content==="SolvingProblems") {
-        return (
-            <p id="tooltip-p">And possibly clear out unexisting problems</p>
-        )
-    }  else if ((content === "DesignThinking")) {
-        return (
-          <div>
-            <p id="tooltip-p">
-              Research, empathy, experimentation, iteration, the usual stuff.
-              And without forgeting the often overlooked concept of{" "}
-              <em>common sense</em>.
-            </p>
-          </div>
-        );
-    } else if ((content === "ideas")) {
-        return (
-          <div>
-            <p id="tooltip-p">
-                Well, with the right checks of balances, of course. 
-            </p>
-          </div>
-        );
-    } else if ((content === "CulturalContext")) {
+    } else if (content === 'SolvingProblems') {
+      return <p id="tooltip-p">And possibly clear out unexisting problems</p>;
+    } else if (content === 'DesignThinking') {
       return (
         <div>
           <p id="tooltip-p">
-              Like understanding the values, beliefs, attitudes, behaviors, and symbols of the target audience.. 
+            Research, empathy, experimentation, iteration, the usual stuff.
+            And without forgeting the often overlooked concept of{' '}
+            <em>common sense</em>.
           </p>
         </div>
       );
-  } else if ((content === "LatestTechnologies")) {
-    return (
-      <div>
-        <p id="tooltip-p">
+    } else if (content === 'ideas') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            Well, with the right checks of balances, of course.{' '}
+          </p>
+        </div>
+      );
+    } else if (content === 'CulturalContext') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            Like understanding the values, beliefs, attitudes, behaviors, and symbols of the target audience..
+            {' '}
+          </p>
+        </div>
+      );
+    } else if (content === 'LatestTechnologies') {
+      return (
+        <div>
+          <p id="tooltip-p">
             It currently uses CSS, HTML, Javascript, React.js and Python.
-        </p>
-      </div>
-    );
-} else if ((content === "EndResult")) {
-  return (
-    <div>
-      <p id="tooltip-p">
-          While keeping the ego under strict control.
-      </p>
-    </div>
-  );
-}  else if ((content === "HolisticProcess")) {
-  return (
-    <div>
-      <p id="tooltip-p">
-          And with a bit of improvisation sometimes. It can save the day, and money...
-      </p>
-    </div>
-  );
-} else if ((content === "3D")) {
-  return (
-    <div>
-      <p id="tooltip-p">
-          Have a look at this <a id="link" onClick={() => ViewProject("InSearchofDarkMatter")}>book cover</a>.
-      </p>
-    </div>
-  );
-} else if ((content === "GraphicDesign")) {
-  return (
-    <div>
-      <p id="tooltip-p">
-        <em>"Ladies and Gentlemen, let me introduce you to my dear cousin Paul, bless his soul,  the
-        self-proclaimed 'Master of many Typefaces.' He's a graphic designer,
-        you see, and he's determined to change the world one pixel at a time. He
-        tells me that in the future, all designs will be created by Ais (or on demand intelligence  as some people call it),   and
-        that human creativity will be a thing of the past. But my cousin, he's
-        not one to be outdone by some data-vorous neural network . He's a true believer in the power of
-        human imagination, and he's on a mission to save it.</em> — <b>Some Ai</b>
-      </p>
-    </div>
-  );
-} else if ((content === "HandMadeStuff")) {
-  return (
-    <div>
-      <p id="tooltip-p"> On digital devices, of course.
-      </p>
-    </div>
-  );
-} else if ((content === "AiStuff")) {
-  return (
-    <div>
-      <p id="tooltip-p"> Well, let's call it <em>just another tool</em> for now.
-      </p>
-    </div>
-  );
-}else if ((content === "Semiotics")) {
-  return (
-    <div>
-      <p id="tooltip-p"> The study of signs and symbols and their use or interpretation.
-      </p>
-    </div>
-  );
-}  else if ((content === "DigitalProducts")) {
-  return (
-    <div>
-      <p id="tooltip-p"> Like this React.js based website.
-      </p>
-    </div>
-  );
-} else if ((content === "Unicorn")) {
-  return (
-    <div>
-      <p id="tooltip-p">
-        {" "}
-        <ul>
-        <p id="tooltip-p"><b>Here's a list of some of the coolest things a unicorn can do:</b></p>
-        <li>
-        <b>Fly</b>: Unicorns are legendary creatures that are said to have the ability to fly.
-        </li>
-        <li>
-        <b>Magic:</b> Unicorns are believed to possess magical powers, and can perform a variety of magical feats such as creating rainbows, granting wishes, and healing the sick.
-        </li>
-        <li>
-        <b>Invisibility:</b> Unicorns have the ability to become invisible, allowing them to escape from danger or avoid unwanted attention.
-        </li>
-        <li>
-        <b>Transformation:</b> Unicorns have the ability to transform themselves into any shape or form they desire.
-        </li>
-        <li>
-        <b>Time Travel:</b> Unicorns have the power to travel through time and see into the future.
-        </li>
-        <li>
-        <b>Telepathy:</b> Unicorns can communicate with others telepathically, and can sense the thoughts and emotions of those around them.
-        </li>
-        <li>
-        <b>Summoning:</b>  Unicorns can summon other mythical creatures and control the elements.
-        </li>
-          </ul>
-      </p>
-    </div>
-  );
-} else if ((content === "Honesty")) {
-  return (
-    <div>
-      <p id="tooltip-p"> You won't be criminally overcharged, promise!
-      </p>
-    </div>
-  );
-}  else if ((content === "HighestStandards")) {
-  return (
-    <div>
-      <p id="tooltip-p"> If we accept a brief it means we will nail it, period. 
-      </p>
-    </div>
-  );
-} else if ((content === "LongTerm")) {
-  return (
-    <div>
-      <p id="tooltip-p"> Good communication, mutual trust and respect are key.
-      </p>
-    </div>
-  );
-}
-
-
-
-}
-
-
-
-
+          </p>
+        </div>
+      );
+    } else if (content === 'EndResult') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            While keeping the ego under strict control.
+          </p>
+        </div>
+      );
+    } else if (content === 'HolisticProcess') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            And with a bit of improvisation sometimes. It can save the day, and money...
+          </p>
+        </div>
+      );
+    } else if (content === '3D') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            Have a look at this
+            {' '}
+            <a id="link" onClick={() => ViewProject ('InSearchofDarkMatter')}>
+              book cover
+            </a>
+            .
+          </p>
+        </div>
+      );
+    } else if (content === 'GraphicDesign') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            <em>
+              "Ladies and Gentlemen, let me introduce you to my dear cousin Paul, bless his soul,  the
+              self-proclaimed 'Master of many Typefaces.' He's a graphic designer,
+              you see, and he's determined to change the world one pixel at a time. He
+              tells me that in the future, all designs will be created by Ais (or on demand intelligence  as some people call it),   and
+              that human creativity will be a thing of the past. But my cousin, he's
+              not one to be outdone by some data-vorous neural network . He's a true believer in the power of
+              human imagination, and he's on a mission to save it.
+            </em> — <b>Some Ai</b>
+          </p>
+        </div>
+      );
+    } else if (content === 'HandMadeStuff') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}On digital devices, of course.
+          </p>
+        </div>
+      );
+    } else if (content === 'AiStuff') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}Well, let's call it <em>just another tool</em> for now.
+          </p>
+        </div>
+      );
+    } else if (content === 'Semiotics') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}The study of signs and symbols and their use or interpretation.
+          </p>
+        </div>
+      );
+    } else if (content === 'DigitalProducts') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}Like this React.js based website.
+          </p>
+        </div>
+      );
+    } else if (content === 'Unicorn') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}
+            <ul>
+              <p id="tooltip-p">
+                <b>
+                  Here's a list of some of the coolest things a unicorn can do:
+                </b>
+              </p>
+              <li>
+                <b>Fly</b>
+                : Unicorns are legendary creatures that are said to have the ability to fly.
+              </li>
+              <li>
+                <b>Magic:</b>
+                {' '}
+                Unicorns are believed to possess magical powers, and can perform a variety of magical feats such as creating rainbows, granting wishes, and healing the sick.
+              </li>
+              <li>
+                <b>Invisibility:</b>
+                {' '}
+                Unicorns have the ability to become invisible, allowing them to escape from danger or avoid unwanted attention.
+              </li>
+              <li>
+                <b>Transformation:</b>
+                {' '}
+                Unicorns have the ability to transform themselves into any shape or form they desire.
+              </li>
+              <li>
+                <b>Time Travel:</b>
+                {' '}
+                Unicorns have the power to travel through time and see into the future.
+              </li>
+              <li>
+                <b>Telepathy:</b>
+                {' '}
+                Unicorns can communicate with others telepathically, and can sense the thoughts and emotions of those around them.
+              </li>
+              <li>
+                <b>Summoning:</b>
+                {' '}
+                Unicorns can summon other mythical creatures and control the elements.
+              </li>
+            </ul>
+          </p>
+        </div>
+      );
+    } else if (content === 'Honesty') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}You won't be criminally overcharged, promise!
+          </p>
+        </div>
+      );
+    } else if (content === 'HighestStandards') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}If we accept a brief it means we will nail it, period.{' '}
+          </p>
+        </div>
+      );
+    } else if (content === 'LongTerm') {
+      return (
+        <div>
+          <p id="tooltip-p">
+            {' '}Good communication, mutual trust and respect are key.
+          </p>
+        </div>
+      );
+    }
+  }
 
   return (
     <div className="about--wrap" id="about">
       <BigLogo darkModeOn={darkModeOn} />
 
-      <div className="about--text--wrap" id={darkModeOn ? "about--dark" : ""}>
+      <div className="about--text--wrap" id={darkModeOn ? 'about--dark' : ''}>
         <p className="about--text">
-          <ev>Joscoyne</ev> is the brainchild of the one man show
+          <b>BETSU & Co.</b> is an integrative lab where art, technology, and strategy don’t just hold hands,  they cross-wires, argue, and produce visual systems that last: thoughtful, deliberate, and well-engineered. Funded by
           <jb>
-            <Link to="/julian-bektashi" style={{ textDecoration: 'none', color: 'inherit' }}>Julian Bektashi</Link>
+            <Link
+              to="/julian-bektashi"
+              style={{textDecoration: 'none', color: 'inherit'}}
+            >
+              Julian Bektashi
+            </Link>
             <span className="tooltip">
-              <Tooltip content={"AboutJulianBektashi"} />
+              <Tooltip content={'AboutJulianBektashi'} />
             </span>
-          </jb>.
+          </jb>, it operates as a cross-disciplinary unit: part design studio, part consultancy, part think tank.
         </p>
 
-        <p className="about--text">
-          Based in the bustling <ev>city of London</ev>, it is driven by{" "}
-          <ev>never-ending curiosity</ev>, passion for{" "}
-          <ev>solving real-world problems</ev> and, ultimately, creating
-          products and experiences that <ev>make a difference</ev>. 
+        <p className="about--text"> Architecture, branding, digital design, 3D, code, and critical thought all collide here, producing identities, experiences, and stories that cut through the digital noise with clarity and intent.
+       
         </p>
-        
-      
 
         {/*<p className="about--text">
           It approaches <ev>design thinking <span className="tooltip">

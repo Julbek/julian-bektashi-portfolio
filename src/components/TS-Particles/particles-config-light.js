@@ -30,6 +30,7 @@ let particlesConfigLight = {
     detectRetina: true,
     duration: 0,
     fpsLimit: 120,
+   
     interactivity: {
       detectsOn: "window",
       events: {
@@ -41,7 +42,7 @@ let particlesConfigLight = {
           selectors: [],
           enable: false,
           mode: [],
-          type: "circle"
+          type: "square"
         },
         onHover: {
           enable: true,
@@ -80,7 +81,7 @@ let particlesConfigLight = {
         connect: {
           distance: 80,
           links: {
-            opacity: 0.5
+            opacity: 1
           },
           radius: 60
         },
@@ -130,7 +131,7 @@ let particlesConfigLight = {
               value: "#ff0000",
               animation: {
                 enable: true,
-                speed: 400,
+                speed: 50,
                 sync: true
               }
             },
@@ -209,20 +210,20 @@ let particlesConfigLight = {
         bounce: {
           horizontal: {
             random: {
-              enable: false,
+              enable: true,
               minimumValue: 0.1
             },
             value: 1
           },
           vertical: {
             random: {
-              enable: false,
+              enable: true,
               minimumValue: 0.1
             },
             value: 1
           }
         },
-        enable: true,
+        enable: false,
         mode: "bounce",
         overlap: {
           enable: true,
@@ -233,15 +234,15 @@ let particlesConfigLight = {
         value: "#c7c7c7",
         animation: {
           h: {
-            count: 0,
+            count: 100,
             enable: true,
-            offset: 0,
+            offset: 2,
             speed: 50,
-            decay: 0,
+            decay: 1,
             sync: false
           },
           s: {
-            count: 0,
+            count: 100,
             enable: false,
             offset: 0,
             speed: 1,
@@ -280,7 +281,7 @@ let particlesConfigLight = {
         },
         decay: 0,
         distance: {},
-        direction: "none",
+        direction: "top",
         drift: 0,
         enable: true,
         gravity: {
@@ -308,11 +309,11 @@ let particlesConfigLight = {
           right: "out",
           top: "out"
         },
-        random: false,
+        random: true,
         size: false,
         speed: 2,
         spin: {
-          acceleration: 0,
+          acceleration: 1,
           enable: false
         },
         straight: false,
@@ -324,12 +325,12 @@ let particlesConfigLight = {
           }
         },
         vibrate: false,
-        warp: false
+        warp: true
       },
       number: {
         density: {
           enable: true,
-          area: 800,
+          area: 250,
           factor: 1000
         },
         limit: 0,
@@ -341,8 +342,8 @@ let particlesConfigLight = {
           minimumValue: 0.3
         },
         value: {
-          min: 0.3,
-          max: 0.8
+          min: 0.05,
+          max: 0.1
         },
         animation: {
           count: 0,
@@ -369,22 +370,22 @@ let particlesConfigLight = {
       },
       shape: {
         options: {},
-        type: "circle"
+        type: "square"
       },
       size: {
         random: {
           enable: true,
-          minimumValue: 1
+          minimumValue: 5
         },
         value: {
           min: 1,
-          max: 3
+          max: 5
         },
         animation: {
           count: 0,
           enable: true,
           speed: 3,
-          decay: 0,
+          decay: 1,
           sync: false,
           destroy: "none",
           startValue: "random",
@@ -405,7 +406,7 @@ let particlesConfigLight = {
         velocityRate: 1
       },
       life: {
-        count: 0,
+        count: 1,
         delay: {
           random: {
             enable: false,

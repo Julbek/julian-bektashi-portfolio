@@ -3,21 +3,21 @@
 .menu--button {
     padding: 2px 6px 3px 6px;
     transition: 0.2s;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
-    margin-left: 15px;
-    border-radius: 3px;
+    margin-left: 14px;
+    margin-bottom: 10px;
     background-color: rgb(255, 55, 55, 0);
     cursor: pointer;
-    border: solid 1px rgb(180, 180, 180, 0);
-
+    border: solid 1px rgb(180, 180, 180, 0.5);
+    white-space: nowrap
 }
 
 .menu--button:hover {
-    border: solid 1px rgb(180, 180, 180);
+    border: solid 1px rgb(0, 0, 0);
     transition: 0.2s;
 }
 
@@ -43,7 +43,7 @@ input:checked + .menu--button {
     .menu--button {
         padding: 3px 6px 3px 6px;
         transition: 0.3s;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 400;
         border: solid 1px rgb(0, 0, 0);
         color: rgb(0, 0, 0);
@@ -79,7 +79,7 @@ input:checked + .menu--button {
     .menu--button {
         padding: 3px 6px 3px 6px;
         transition: 0.3s;
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 400;
         border: solid 1px rgb(0, 0, 0);
         color: rgb(0, 0, 0);

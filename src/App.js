@@ -108,8 +108,7 @@ const Home = () => {
 
     return (
       <div className="app">
-        <ParticleBackground darkModeOn={darkModeOn} />
-
+      
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
