@@ -6,7 +6,7 @@
 .home {
     width: 50vw; /* or whatever adaptive width you want */
     margin: 0 auto;
-        background-image: url("/src/grid_module.svg");
+        background-image: url("/src/components/grid_module.svg");
     background-repeat: repeat;
     background-size: 2%;
 }
