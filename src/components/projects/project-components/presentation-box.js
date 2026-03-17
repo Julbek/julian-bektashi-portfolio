@@ -10,7 +10,7 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
             <div className="presentation--intro--box" id={`presentation--intro--box--${id}`}>
 
-                <img className="presentation--intro--img"  src={imgSrc} id={`presentation--intro--img--${id}`} ></img>
+                <img loading="lazy" className="presentation--intro--img"  src={imgSrc} id={`presentation--intro--img--${id}`} ></img>
 
                 <div className="presentation--intro--text--wrap" id={`presentation--intro--text--wrap--${id}`}>
                     
@@ -32,7 +32,7 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
             <div className="presentation--box" id={`presentation--box--${id}`}>
 
-                <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
 
                 <div className="presentation--text--wrap" id={`presentation--text--wrap--${id}`}>
                     
@@ -63,7 +63,7 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
                     
                 </div>
     
-                <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
     
             </div>
             
@@ -108,7 +108,7 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
                     
                 </div>
     
-                <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
     
             </div>
             
@@ -123,8 +123,8 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="imgs--wrap">
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
 
 
                 </div>
@@ -159,8 +159,8 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="imgs--wrap">
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
 
 
                 </div>
@@ -180,7 +180,7 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
                 
                 <div className="img--wrap" id={`img--wrap--${id}`}>
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
 
 
 
@@ -190,8 +190,8 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="imgs--wrap" id={`imgs--wrap--${id}`}>
 
-                    <img className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc3} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc3} id={`presentation--img--${id}`} ></img>
 
 
                 </div>
@@ -211,7 +211,7 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="one--img--wrap"  id={`one--img--wrap--${id}`}>
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
                 </div>
 
             </div>
@@ -229,8 +229,8 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="two--imgs--wrap"  id={`two--imgs--wrap--${id}`}>
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
 
                 </div>
 
@@ -257,9 +257,9 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="three--imgs--wrap"  id={`three--imgs--wrap--${id}`}>
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc3} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc3} id={`presentation--img--${id}`} ></img>
 
                 </div>
 
@@ -288,10 +288,10 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
 
                 <div className="four--imgs--wrap"  id={`four--imgs--wrap--${id}`}>
 
-                    <img className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc3} id={`presentation--img--${id}`} ></img>
-                    <img className="presentation--img"  src={imgSrc4} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc2} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc3} id={`presentation--img--${id}`} ></img>
+                    <img loading="lazy" className="presentation--img"  src={imgSrc4} id={`presentation--img--${id}`} ></img>
 
                 </div>
 
@@ -334,4 +334,5 @@ export default function PresentationBox({content, structure, imgSrc, imgSrc2, im
     }
 
 }
+
 

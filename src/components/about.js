@@ -249,25 +249,40 @@ export default function About({darkModeOn, ViewProject}) {
 
       <div className="about--text--wrap" id={darkModeOn ? 'about--dark' : ''}>
         <p className="about--text">
-          <b>BETSU & Co.</b> is an integrative lab where art, technology, and strategy don’t just hold hands,  they cross-wires, argue, and produce visual systems that last: thoughtful, deliberate, and well-engineered. Funded by
-          <jb>
+          <b>BETSU WORKS</b>
+          {' '}
+          is a London design studio working with organisations and startups that demand world-class creative output and expect measurable ROI from it.
+      
+         </p>
+
+          <p className="about--text">
+          {' '} 
+         We build visual systems from the ground up, or transform existing ones into something worthy of the organisations behind them. We make logos & brand identities, campaigns, print and digital collateral, 
+          3D, websites and apps, imagined to <i>move through culture</i>, engineered to become <i>company infrastructure</i>.
+        </p>
+
+        <p className="about--text">
+          {' '} 
+          We operate as a cross-disciplinary unit: part design studio, part consultancy, part think tank. If you have a project in mind, we would like to hear about it.
+    
+        </p>
+
+        {/* <jb>
             <Link
               to="/julian-bektashi"
               style={{textDecoration: 'none', color: 'inherit'}}
             >
-              Julian Bektashi
+              <b>Julian Bektashi</b>
             </Link>
             <span className="tooltip">
               <Tooltip content={'AboutJulianBektashi'} />
             </span>
-          </jb>, it operates as a cross-disciplinary unit: part design studio, part consultancy, part think tank.
-        </p>
-
-        <p className="about--text"> Architecture, branding, digital design, 3D, code, and critical thought all collide here, producing identities, experiences, and stories that cut through the digital noise with clarity and intent.
-       
-        </p>
-
-        {/*<p className="about--text">
+          </jb>
+        
+        
+        
+        
+        <p className="about--text">
           It approaches <ev>design thinking <span className="tooltip">
               <Tooltip content={"DesignThinking"} />
             </span></ev>

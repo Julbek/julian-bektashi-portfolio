@@ -1,19 +1,21 @@
 import React from "react";
-import ProjectBox from "./project-box.js";
 import { projects } from "./data";
 import "./globalstyles.css";
 import About from "./about";
 import { useLocation } from "react-router";
 import { Routes, Route } from "react-router-dom";
+import { useMemo, useTransition } from "react";
+import { lazy, Suspense } from "react";
 
 
 
 
-
+const ProjectBox = lazy(() => import("./project-box.js"));
 
 
 
 export default function Main ({categoriesFilter, allButton, count, ViewProject, darkModeOn}) {
+    const [isPending, startTransition] = useTransition();
 
  
     function BoxHandler() {
@@ -88,7 +90,9 @@ export default function Main ({categoriesFilter, allButton, count, ViewProject, 
                 
            
                     
-               <BoxHandler />
+               <Suspense fallback={<div>Loading...</div>}>
+                   <BoxHandler />
+               </Suspense>
                     
          
 

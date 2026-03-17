@@ -11,36 +11,36 @@ export default function AiStuff() {
         <div class="main-grid" style={{ rowGap: "1%" }}>
           <div class="grid-el" id="span2-el-3" style={{ paddingBottom: "0" }}>
             <div class="ai-cover-wrap">
-              <img class="ai-img" src="/Projects/Ai_Stuff/R1.jpg"></img>
-              <img
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R1.webp"></img>
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/R2.jpg"
+                src="/Projects/Ai_Stuff/R2.webp"
                 id="ai-img-v2"
               ></img>
-              <img class="ai-img" src="/Projects/Ai_Stuff/R4.jpg"></img>
-              <img
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R4.webp"></img>
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/R5.jpg"
+                src="/Projects/Ai_Stuff/R5.webp"
                 id="ai-img-v2"
               ></img>
-              <img class="ai-img" src="/Projects/Ai_Stuff/R6.jpg"></img>
-              <img class="ai-img" src="/Projects/Ai_Stuff/R7.jpg"></img>
-              <img
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R6.webp"></img>
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R7.webp"></img>
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/R8.jpg"
+                src="/Projects/Ai_Stuff/R8.webp"
                 id="ai-img-v2"
               ></img>
-              <img class="ai-img" src="/Projects/Ai_Stuff/R9.jpg"></img>
-              <img class="ai-img" src="/Projects/Ai_Stuff/R10.jpg"></img>
-              <img
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R9.webp"></img>
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R10.webp"></img>
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/R11.jpg"
+                src="/Projects/Ai_Stuff/R11.webp"
                 id="ai-img-v2"
               ></img>
-              <img class="ai-img" src="/Projects/Ai_Stuff/R12.jpg"></img>
-              <img
+              <img loading="lazy" class="ai-img" src="/Projects/Ai_Stuff/R12.webp"></img>
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/R12.jpg"
+                src="/Projects/Ai_Stuff/R12.webp"
                 id="ai-img-v2"
               ></img>
             </div>
@@ -88,64 +88,64 @@ export default function AiStuff() {
 
           <div class="grid-el" id="span2-el-3" style={{ paddingBottom: "0" }}>
             <div class="ai-books-wrap">
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_01.jpg"
+                src="/Projects/Ai_Stuff/Ai_01.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_02.jpg"
+                src="/Projects/Ai_Stuff/Ai_02.webp"
                 id="ai-img-v4"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_03.jpg"
+                src="/Projects/Ai_Stuff/Ai_03.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_04.jpg"
+                src="/Projects/Ai_Stuff/Ai_04.webp"
                 id="ai-img-v4"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_05.jpg"
+                src="/Projects/Ai_Stuff/Ai_05.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_06.jpg"
+                src="/Projects/Ai_Stuff/Ai_06.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_07.jpg"
+                src="/Projects/Ai_Stuff/Ai_07.webp"
                 id="ai-img-v4"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_08.jpg"
+                src="/Projects/Ai_Stuff/Ai_08.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_09.jpg"
+                src="/Projects/Ai_Stuff/Ai_09.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_10.jpg"
+                src="/Projects/Ai_Stuff/Ai_10.webp"
                 id="ai-img-v4"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_11.jpg"
+                src="/Projects/Ai_Stuff/Ai_11.webp"
                 id="ai-img-v3"
               ></img>
-              <img
+              <img loading="lazy"
                 class="ai-img"
-                src="/Projects/Ai_Stuff/Ai_12.jpg"
+                src="/Projects/Ai_Stuff/Ai_12.webp"
                 id="ai-img-v4"
               ></img>
             </div>
@@ -154,6 +154,8 @@ export default function AiStuff() {
       </div>
     );
 }
+
+
 
 
 

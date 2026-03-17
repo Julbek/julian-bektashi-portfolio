@@ -22,7 +22,14 @@ export default function ProjectView () {
     return (
         <div className="project--view">
             <div className="project--view--close--wrap">
-                <img className="close--img" src="/assets/close.png" onClick={HandleClose}></img>
+                <img
+                    className="close--img"
+                    src="/assets/close.png"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Close"
+                    onClick={HandleClose}
+                />
             </div>
             <Suspense fallback={<div><h2>Loading...</h2></div>}>
 

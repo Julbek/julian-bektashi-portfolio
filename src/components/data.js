@@ -3,34 +3,36 @@
 
 /* Current Projects */
 
-export var projects = [
-    {name:"Mektrin Motors", cover: "betsu-projects/mektrin_motors_poster.jpg", cat: ["Branding"], visible:true, link: ""},
-    {name:"Betsu Works", cover: "betsu-projects/betsu_poster.jpg", cat: ["Branding", "Typefaces"], visible:true, link: ""},
-    {name:"UKAP Foundation", cover: "betsu-projects/uka_branding_poster.png", cat: ["Branding"], visible:true, link: ""},
-    {name:"MyWage", cover: "betsu-projects/mywage_7.gif", cat: ["Posters", "Ads"], visible:true, link: ""},
-    {name:"M90SEVEN", cover: "betsu-projects/m90seven_gif.gif", cat: ["Branding"], visible:true, link: "https://m90seven.co.uk/"},
-    {name:"Phasecraft", cover: "betsu-projects/phasecraft_poster.jpg", cat: ["Ads"], visible:true, link: ""},
-    {name:"In Search of Dark Matter", cover: "betsu-projects/dark_matter_poster.jpg", cat: ["Books"], visible:true, link: ""},
-    {name:"Deka Chambers", cover: "betsu-projects/Deka_Chambers_PI_Focus_Ad_02.jpg", cat: ["Ads"], visible:true, link: ""},
-    {name:"Mondvalsen", cover: "betsu-projects/mondvalsen_poster_01.jpg", cat: ["Branding", "Posters"], visible:true, link: ""},
-    {name:"Dmoat Ai Chat (2023)", cover: "betsu-projects/dmoat_gif.gif", cat: ["Apps"], visible:true, link: "https://dmoat-demo.vercel.app/"},
-    {name:"Zotmerr", cover: "betsu-projects/zotmerr_poster.jpg", cat: ["Art Direction"], visible:true, link: "https://betsu.co.uk/zotmerr"},
-    {name:"3 Hare Court Chambers", cover: "betsu-projects/3_Hare_Court_Ad.jpg", cat: ["Ads"], visible:true, link: ""},
-    {name:"Latent Labs", cover: "betsu-projects/latent_labs_ad.gif", cat: ["Ads"], visible:true, link: ""},
-    {name:"Zarar", cover: "betsu-projects/zarar_poster.jpg", cat: ["Branding", "3D", "Bottles"], visible:true, link: ""},
-    {name:"Clementoni Science Museum", cover: "betsu-projects/clementoni_cover.jpg", cat: ["3D", "Packages"], visible:true, link: ""},
-    {name:"Essex Court Chambers", cover: "betsu-projects/essex_court_chambers_stand.jpg", cat: ["Stands"], visible:true, link: ""},
-    {name:"Realbeat", cover: "betsu-projects/real_beat_poster.jpg", cat: ["Branding", "Websites"], visible:true, link: "https://www.realbeatrecords.com/"},
-    {name:"CFA Institute", cover: "betsu-projects/CFA_institute_poster.jpg", cat: ["Posters"], visible:true, link: ""},
-    {name:"Adfin", cover: "betsu-projects/Adfin_Ad.jpg", cat: ["Ads"], visible:true, link: ""},
-     {name:"Omron", cover: "betsu-projects/omron_ad.jpg", cat: ["Ads"], visible:true, link: ""}
 
+
+export var projects = [
+    {name:"Mektrin Motors Rebranding", cover: "betsu-projects/mektrin_motors_poster.webp", cat: ["Branding"], visible:true, link: ""},
+     {name:"UKAP Branding", cover: "betsu-projects/ukap_branding_01.webp", cat: ["Branding", "Art Direction", "Collateral"], visible:true, link: ""},
+    {name:"mywage Brand Direction", cover: "betsu-projects/mywage_branding_11.webp", cat: ["Ads", "Branding", "Collateral"], visible:true, link: ""},
+    {name:"Clementoni Science Museum Packaging", cover: "betsu-projects/clementoni_cover.webp", cat: ["3D", "Packages"], visible:true, link: ""},
+    {name:"Efficent FM+ Branding & Website", cover: "betsu-projects/ef_plus.webp", cat: ["Branding", "Websites"], visible:true, link: "https://www.efficientfmplus.co.uk/"},
+    {name:"Koneqtiva Branding", cover: "betsu-projects/koneqtiva_branding_07.webp", cat: ["Branding", "Ads", "Collateral"], visible:true, link: ""},
+    {name:"Gala For a Brighter Future 25", cover: "betsu-projects/ukap_gala_25_poster.webp", cat: ["Branding", "Posters", "Art Direction", "Collateral"], visible:true, link: ""},
+     {name:"Deka Chambers Collateral", cover: "betsu-projects/Deka_Chambers_PI_Focus_Ad_02.webp", cat: ["Ads", "Collateral"], visible:true, link: ""},
+  
+    //{name:"M90SEVEN Branding", cover: "betsu-projects/m90seven_gif.gif", cat: ["Branding", "Art Direction"], visible:true, link: "https://m90seven.co.uk/"},
+    //{name:"Mondvalsen Branding & Covers", cover: "betsu-projects/mondvalsen_poster_01.webp", cat: ["Branding", "Covers", "Art Direction"], visible:true, link: ""},
+    {name:"Dmoat Ai Chat App (2023)", cover: "betsu-projects/dmoat_gif.webp", cat: ["Apps"], visible:true, link: "https://dmoat-demo.vercel.app/"},
+//{name:"Zotmerr", cover: "betsu-projects/zotmerr_poster.webp", cat: ["Art Direction"], visible:true, link: ""},
+    {name:"Zarar Branding & Ads", cover: "betsu-projects/zarar_poster.webp", cat: ["Branding", "3D", "Bottles", "Art Direction", "Packages"], visible:true, link: ""},
+    //{name:"Realbeat Branding", cover: "betsu-projects/real_beat_poster.webp", cat: ["Branding", "Websites"], visible:true, link: "https://www.realbeatrecords.com/"},
+    {name:"Betsu Works Branding", cover: "betsu-projects/betsu_poster.webp", cat: ["Branding", "Typefaces"], visible:true, link: ""},
+     {name:"In Search of Dark Matter Cover", cover: "betsu-projects/dark_matter_poster.webp", cat: ["Covers"], visible:true, link: ""},
 
 ];
 
-
-//{name:"Ai Stuff", cover: "./Projects/Ai_Stuff/Ai_Stuff_COVER.webp", cat: ["Web", "Print"], visible:true}
 //{name:"RealBeat Branding", cover: "./Projects/Real_Beat_Branding/Real_Beat_COVER.webp", cat: ["Branding"], visible:true},
-
-
+//{name:"CFA Institute", cover: "betsu-projects/CFA_institute_poster.webp", cat: ["Posters"], visible:true, link: ""},
+//{name:"Adfin", cover: "betsu-projects/Adfin_Ad.webp", cat: ["Ads"], visible:true, link: ""},
+//{name:"Omron", cover: "betsu-projects/omron_ad.webp", cat: ["Ads"], visible:true, link: ""}
+//{name:"Essex Court Chambers", cover: "betsu-projects/essex_court_chambers_stand.webp", cat: ["Stands"], visible:true, link: ""},
+// {name:"Career Pathways Mind & Brain", cover: "betsu-projects/mind_brain_poster.webp", cat: ["Posters"], visible:true, link: ""},
+//{name:"Phasecraft", cover: "betsu-projects/phasecraft_poster.webp", cat: ["Ads"], visible:true, link: ""},
+// {name:"Mind Riot", cover: "betsu-projects/mind_riot_logo.webp", cat: ["Branding"], visible:true, link: ""},
+//{name:"Betsu Works", cover: "betsu-projects/betsu_poster.webp", cat: ["Branding", "Typefaces", "Art Direction"], visible:true, link: ""},
 

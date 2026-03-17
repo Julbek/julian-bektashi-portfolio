@@ -28,7 +28,8 @@ export default function BigLogo({darkModeOn}) {
         <div className="big--logo--wrap" id={bigLogoMode}>
 
             <div className="big--logo--img--wrap">
-                <img className="big--logo--img" src="./assets/Betsu_Poster_15.png" ></img>
+                <img className="big--logo--img" src="./assets/Betsu_Poster_15.svg"  ></img>
+                
             </div>
             
         </div>

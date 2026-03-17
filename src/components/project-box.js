@@ -2,6 +2,8 @@ import React from "react";
 import "./project-box-style.css"
 import { Link } from "react-router-dom";
 
+
+
 import { CSSTransition } from "react-transition-group";
 
 
@@ -43,7 +45,13 @@ export default function ProjectBox({name, cover, key, visible, ViewProject, dark
             >
                 <div className={!visibleState ? "project-box" : "project-box-hidden"} id={boxMode}>
                     <div className="project--cover--wrap">
-                        <img className="project--cover" src={cover === "" ? "./assets/Projects/Coming_Soon.png" : cover}></img>
+                        <img
+                            className="project--cover"
+                            src={cover === "" ? "./assets/Projects/Coming_Soon.png" : cover}
+                            loading="lazy"
+                            decoding="async"
+                            alt={`${name} cover image`}
+                        />
                     </div>
                     <div className="project--name--wrap" id={boxMode}>
                         <p className="project--name">

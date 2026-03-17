@@ -51,7 +51,7 @@ export default function SpotifyAppRedesign() {
         <PresentationBox
           structure={"text-img"}
           id={"round--border"}
-          imgSrc="/Projects/Spotify_App/First Hand Analysis Screens/Survey Grabs/Music Library Experience.jpg"
+          imgSrc="/Projects/Spotify_App/First Hand Analysis Screens/Survey Grabs/Music Library Experience.webp"
           heading={"User Research"}
           text={
             <div>
@@ -138,8 +138,8 @@ export default function SpotifyAppRedesign() {
         <PresentationBox
           structure={"2-img-text"}
           id={"round--border"}
-          imgSrc="/Projects/Spotify_App/New Design - Before Test/Chronology 2@2x.jpg"
-          imgSrc2="/Projects/Spotify_App/New Design - Before Test/browse all.jpg"
+          imgSrc="/Projects/Spotify_App/New Design - Before Test/Chronology 2@2x.webp"
+          imgSrc2="/Projects/Spotify_App/New Design - Before Test/browse all.webp"
           heading={"Design"}
           text={
             <div>
@@ -204,9 +204,9 @@ export default function SpotifyAppRedesign() {
         <PresentationBox
             structure={"3-img"}
             id={"mobile--round--border"}
-            imgSrc="/Projects/Spotify_App/New Design - Before Test/Search@2x.jpg"
-            imgSrc2="/Projects/Spotify_App/New Design - Before Test/Library - Albums  Downloaded Offline@2x.jpg"
-            imgSrc3="/Projects/Spotify_App/New Design - Before Test/Artists Page@2x.jpg"
+            imgSrc="/Projects/Spotify_App/New Design - Before Test/Search@2x.webp"
+            imgSrc2="/Projects/Spotify_App/New Design - Before Test/Library - Albums  Downloaded Offline@2x.webp"
+            imgSrc3="/Projects/Spotify_App/New Design - Before Test/Artists Page@2x.webp"
             heading={"Mobile GUI"}
         />
 
@@ -215,3 +215,4 @@ export default function SpotifyAppRedesign() {
       </div>
     );
 }
+

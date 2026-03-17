@@ -12,8 +12,8 @@ export default function Omron() {
   
 
         <div className="poster-container">
-          <img 
-            src={process.env.PUBLIC_URL + "/betsu-projects/omron_ad.jpg"}
+          <img loading="lazy" 
+            src={process.env.PUBLIC_URL + "/betsu-projects/omron_ad.webp"}
             alt="Omron Poster"
             className="poster-image"
           />
@@ -22,3 +22,5 @@ export default function Omron() {
       </div>
     );
 }
+
+

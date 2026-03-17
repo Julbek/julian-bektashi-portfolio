@@ -12,8 +12,8 @@ export default function Adin() {
   
 
         <div className="poster-container">
-          <img 
-            src={process.env.PUBLIC_URL + "/betsu-projects/Adfin_Ad.jpg"}
+          <img loading="lazy" 
+            src={process.env.PUBLIC_URL + "/betsu-projects/Adfin_Ad.webp"}
             alt="Adfin Poster"
             className="poster-image"
           />
@@ -22,3 +22,5 @@ export default function Adin() {
       </div>
     );
 }
+
+

@@ -66,7 +66,7 @@ export default function JulianBektashi () {
   return (
     <div className="project--view">
       <div className="project--view--close--wrap">
-        <img
+        <img loading="lazy"
           className="close--img"
           src="/assets/close.png"
           onClick={HandleClose}
@@ -76,7 +76,7 @@ export default function JulianBektashi () {
         <PresentationBox
           structure={'presentation--intro'}
           id={'julian'}
-          imgSrc="/Projects/Julian_Bektashi/Julian_Bektashi_Photo_01_Colour.jpg"
+          imgSrc="/Projects/Julian_Bektashi/Julian_Bektashi_Photo_01_Colour.webp"
           title={'About Julian Bektashi'}
           text={
             <div>
@@ -109,3 +109,5 @@ export default function JulianBektashi () {
     </div>
   );
 }
+
+

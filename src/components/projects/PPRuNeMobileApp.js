@@ -158,8 +158,8 @@ export default function PPRuNeMobileApp() {
             
             structure={"text-2-img"}
             id={"round--border"}
-            imgSrc="/Projects/PPRuNe_App/Prototype Mockups/Amend 1.jpg"
-            imgSrc2="/Projects/PPRuNe_App/Prototype Mockups/Roumors and News@2x.jpg"
+            imgSrc="/Projects/PPRuNe_App/Prototype Mockups/Amend 1.webp"
+            imgSrc2="/Projects/PPRuNe_App/Prototype Mockups/Roumors and News@2x.webp"
             heading={"Mobile GUI"}
             text= {
                 <div >
@@ -186,7 +186,7 @@ export default function PPRuNeMobileApp() {
         <PresentationBox
             structure={"2-span"}
             id={"round--border"}
-            imgSrc="/Projects/PPRuNe_App/Prototype Mockups/Desktop Mockup.jpg"
+            imgSrc="/Projects/PPRuNe_App/Prototype Mockups/Desktop Mockup.webp"
             heading={"Desktop GUI"}
         />
 
@@ -215,9 +215,9 @@ export default function PPRuNeMobileApp() {
         <PresentationBox
             structure={"3-img"}
             id={"mobile--round--border"}
-            imgSrc="/Projects/PPRuNe_App/Prototype Mockups/Amend 2.jpg"
-            imgSrc2="/Projects/PPRuNe_App/Prototype Mockups/Reply@2x.jpg"
-            imgSrc3="/Projects/PPRuNe_App/Prototype Mockups/Chat XXX@2x.jpg"
+            imgSrc="/Projects/PPRuNe_App/Prototype Mockups/Amend 2.webp"
+            imgSrc2="/Projects/PPRuNe_App/Prototype Mockups/Reply@2x.webp"
+            imgSrc3="/Projects/PPRuNe_App/Prototype Mockups/Chat XXX@2x.webp"
             heading={"Mobile GUI"}
         />
 
@@ -230,3 +230,4 @@ export default function PPRuNeMobileApp() {
       </div>
     );
 }
+

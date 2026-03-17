@@ -12,8 +12,8 @@ export default function CFA () {
   
 
         <div className="poster-container">
-          <img 
-            src={process.env.PUBLIC_URL + "/betsu-projects/CFA_institute_poster.jpg"}
+          <img loading="lazy" 
+            src={process.env.PUBLIC_URL + "/betsu-projects/CFA_institute_poster.webp"}
             alt="CFA Institute Poster"
             className="poster-image"
           />
@@ -22,3 +22,5 @@ export default function CFA () {
       </div>
     );
 }
+
+

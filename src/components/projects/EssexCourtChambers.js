@@ -12,8 +12,8 @@ export default function EssexCourt () {
   
 
         <div className="poster-container">
-          <img 
-            src={process.env.PUBLIC_URL + "/betsu-projects/essex_court_chambers_stand.jpg"}
+          <img loading="lazy" 
+            src={process.env.PUBLIC_URL + "/betsu-projects/essex_court_chambers_stand.webp"}
             alt="Essex Court Chambers Poster"
             className="poster-image"
           />
@@ -22,3 +22,5 @@ export default function EssexCourt () {
       </div>
     );
 }
+
+

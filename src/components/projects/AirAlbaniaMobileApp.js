@@ -150,8 +150,8 @@ export default function AirAlbaniaMobileApp() {
         <PresentationBox
           structure={"2-img-text"}
           id={"round--border"}
-          imgSrc="/Projects/Air_Albania_App/Mockups/Home (No Active booking)@2x.jpg"
-          imgSrc2="/Projects/Air_Albania_App/Mockups/Find Flights - Return@2x.jpg"
+          imgSrc="/Projects/Air_Albania_App/Mockups/Home (No Active booking)@2x.webp"
+          imgSrc2="/Projects/Air_Albania_App/Mockups/Find Flights - Return@2x.webp"
           heading={"Design"}
           text={
             <div>
@@ -175,18 +175,19 @@ export default function AirAlbaniaMobileApp() {
         <PresentationBox
           structure={"3-img"}
           id={"mobile--round--border"}
-          imgSrc="/Projects/Air_Albania_App/Mockups/Fares 1@2x.jpg"
-          imgSrc2="/Projects/Air_Albania_App/Mockups/Passenger Data 1@2x.jpg"
-          imgSrc3="/Projects/Air_Albania_App/Mockups/Extra Services 1@2x.jpg"
+          imgSrc="/Projects/Air_Albania_App/Mockups/Fares 1@2x.webp"
+          imgSrc2="/Projects/Air_Albania_App/Mockups/Passenger Data 1@2x.webp"
+          imgSrc3="/Projects/Air_Albania_App/Mockups/Extra Services 1@2x.webp"
         />
 
         <PresentationBox
           structure={"3-img"}
           id={"mobile--round--border"}
-          imgSrc="/Projects/Air_Albania_App/Mockups/Payment 1@2x.jpg"
-          imgSrc2="/Projects/Air_Albania_App/Mockups/Home (Active Booking)@2x.jpg"
-          imgSrc3="/Projects/Air_Albania_App/Mockups/Boarding Passes@2x.jpg"
+          imgSrc="/Projects/Air_Albania_App/Mockups/Payment 1@2x.webp"
+          imgSrc2="/Projects/Air_Albania_App/Mockups/Home (Active Booking)@2x.webp"
+          imgSrc3="/Projects/Air_Albania_App/Mockups/Boarding Passes@2x.webp"
         />
       </div>
     );
 }
+

@@ -85,7 +85,7 @@ export default function Footer({darkModeOn}) {
 
                     <p className="copyright--text">
 
-                        ©2023 Betsu & Co. All Rights Reserved.
+                        ©2025 Betsu & Co. All Rights Reserved. React website designed and developed in-house.
 
                     </p>
 

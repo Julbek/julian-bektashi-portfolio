@@ -12,8 +12,8 @@ export default function PhaseCraft () {
   
 
         <div className="poster-container">
-          <img 
-            src={process.env.PUBLIC_URL + "/betsu-projects/phasecraft_poster.jpg"}
+          <img loading="lazy" 
+            src={process.env.PUBLIC_URL + "/betsu-projects/phasecraft_poster.webp"}
             alt="Phasecraft Poster"
             className="poster-image"
           />
@@ -22,3 +22,5 @@ export default function PhaseCraft () {
       </div>
     );
 }
+
+

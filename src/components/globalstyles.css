@@ -96,8 +96,7 @@ width: 100%;
     
 }
 .upper--bar--left--side {
-    height: 100%;
-}
+    height: 100%;}
 
 .logo--wrap {
     height: 100%;
@@ -107,9 +106,10 @@ width: 100%;
 }
 
 #betsu--logo {
-    height: 28px;
+    height: 40px;
     padding-left: var(--sidePadding);
     transition: 0.1s;
+
 }
 
 #betsu--logo:hover {
@@ -298,6 +298,13 @@ width: 100%;
         
     
     }
+
+    #betsu--logo {
+    height: 18px;
+    padding-left: var(--sidePadding);
+    transition: 0.1s;
+
+}
     
     
     
