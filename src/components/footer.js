@@ -72,7 +72,7 @@ export default function Footer({darkModeOn}) {
         <div className="footer--wrap" id={footerMode}>
             <div className="footer">
 
-                <Email email= "contact@betsu.co.uk"/>
+                <Email email= "julian.bektashi@live.com"/>
 
                 <div className="social--media--wrap">
                     <SocialMediaLink imgsrc= "/assets/Linktree_Icon_BB.png" link="https://linktr.ee/julianbektashi" target = "_blank" />
@@ -85,7 +85,7 @@ export default function Footer({darkModeOn}) {
 
                     <p className="copyright--text">
 
-                        ©2025 Betsu & Co. All Rights Reserved. React website designed and developed in-house.
+                        ©2025 Julian Bektashi. All Rights Reserved. Website designed and developed by Julian Bektashi.
 
                     </p>
 

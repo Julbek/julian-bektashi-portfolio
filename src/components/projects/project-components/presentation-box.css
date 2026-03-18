@@ -8,9 +8,10 @@
 /*PROJECT PRESENTATION INTRO*/
 
 .presentation--wrap {
-    width: 75%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3%;
 }
 
 
