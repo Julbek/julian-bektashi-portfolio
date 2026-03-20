@@ -17,12 +17,12 @@ export var projects = [
   
     //{name:"M90SEVEN Branding", cover: "betsu-projects/m90seven_gif.gif", cat: ["Branding", "Art Direction"], visible:true, link: "https://m90seven.co.uk/"},
     //{name:"Mondvalsen Branding & Covers", cover: "betsu-projects/mondvalsen_poster_01.webp", cat: ["Branding", "Covers", "Art Direction"], visible:true, link: ""},
-    //{name:"Dmoat Ai Chat App (2023)", cover: "betsu-projects/dmoat_gif.webp", cat: ["Apps"], visible:true, link: "https://dmoat-demo.vercel.app/"},
+    {name:"Dmoat Ai Chat App (2023)", cover: "betsu-projects/dmoat_gif.webp", cat: ["Apps"], visible:true, link: "https://dmoat-demo.vercel.app/"},
 //{name:"Zotmerr", cover: "betsu-projects/zotmerr_poster.webp", cat: ["Art Direction"], visible:true, link: ""},
-    //{name:"Zarar Branding & Ads", cover: "betsu-projects/zarar_poster.webp", cat: ["Branding", "3D", "Bottles", "Art Direction", "Packages"], visible:true, link: ""},
-    //{name:"Realbeat Branding", cover: "betsu-projects/real_beat_poster.webp", cat: ["Branding", "Websites"], visible:true, link: "https://www.realbeatrecords.com/"},
+    {name:"Zarar Branding & Ads", cover: "betsu-projects/zarar_poster.webp", cat: ["Branding", "3D", "Bottles", "Art Direction", "Packages"], visible:true, link: ""},
+    {name:"Realbeat Branding", cover: "betsu-projects/real_beat_poster.webp", cat: ["Branding", "Websites"], visible:true, link: "https://www.realbeatrecords.com/"},
     //{name:"Betsu Works Branding", cover: "betsu-projects/betsu_poster.webp", cat: ["Branding", "Typefaces"], visible:true, link: ""},
-     //{name:"In Search of Dark Matter Cover", cover: "betsu-projects/dark_matter_poster.webp", cat: ["Covers"], visible:true, link: ""},
+     {name:"In Search of Dark Matter Cover", cover: "betsu-projects/dark_matter_poster.webp", cat: ["Covers"], visible:true, link: ""},
 
 ];
 
